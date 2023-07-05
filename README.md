@@ -9,6 +9,8 @@ Now that I have started to look for a job, I found that the experience of just a
 * Pull this repo
 * Have Python 3.X installed 
 * run `pip3 install -r requirements.txt` or `pip install -r requirements.txt`
+* update `JOB_SEARCH_PAGE_LIMIT` to your limit 
+* update `JobScraper("software engineer", True, Level.MIDANDSENIOR, JobPostedTimeRange.DAY)` geo id, location id can be grab from the linkedin URL when you look at a job. 
 * run `python3 job_scrapper.py` in this directory 
 * This should populate the rows in the `linkedinjobs.csv` file 
 * You can import this file into google sheets for your own tracking 

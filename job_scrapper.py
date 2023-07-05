@@ -139,7 +139,7 @@ class JobScraper:
 
 
 if __name__ == '__main__':
-    # Job title, Is remote, level, and "day"
+    # Job title, Is remote, level, job posted time, location, geo id 
     job_scraper = JobScraper("software engineer", True, Level.MIDANDSENIOR, JobPostedTimeRange.DAY)
     jobs = job_scraper.scrape_jobs()
     
